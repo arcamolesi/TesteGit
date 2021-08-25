@@ -6,6 +6,7 @@
     echo "<br/>";
     echo md5($senha); 
 */
+atualizei esta porcaria
    include 'conexao.php'; 
    $pdo = Conexao::conectar(); 
    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
